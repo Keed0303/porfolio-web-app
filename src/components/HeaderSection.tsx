@@ -2,6 +2,7 @@ import {
   SiJavascript, SiTypescript, SiIonic, SiAndroid, SiReact, 
   SiAngular, SiHtml5, SiSass, SiTailwindcss, SiPhp 
 } from "react-icons/si";
+import GetInTouch from "./ContactUs";
 
 export default function HeaderSection() {
   return (
@@ -53,18 +54,10 @@ export default function HeaderSection() {
 
       {/* Buttons */}
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <a
-          href="#projects"
-          className="px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition"
-        >
-          View My Work
-        </a>
-        <a
-          href="#contact"
-          className="px-6 py-2 bg-gray-100 text-gray-800 rounded-full hover:bg-gray-200 transition"
-        >
-          Get in Touch
-        </a>
+        <div className="p-4 flex">
+          <a className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" href="/Manuel-Kyd-Thoma-Nagpala-Resume.pdf" download="Manuel-Kyd-Thoma-Nagpala-Resume.pdf">Download CV</a>
+        </div>
+        <GetInTouch />
       </div>
     </section>
   );
