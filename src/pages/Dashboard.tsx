@@ -27,7 +27,7 @@ const Dashboard = () => {
                 <img
                   src="/fwa_logo.png"
                   alt="Filweb Asia Logo"
-                  className="w-10 h-10 object-contain"
+                  className="w-24 h-10 object-contain"
                 />
                 <span className="font-semibold text-gray-900">Filweb Asia Inc.</span>
                 <span className="italic text-gray-700 ml-auto">2 years 9 months</span>
@@ -43,7 +43,7 @@ const Dashboard = () => {
                 <img
                   src="/city-college-calamba-logo.png"
                   alt="City College of Calamba Logo"
-                  className="w-10 h-10 object-contain"
+                  className="w-24 h-10 object-contain"
                 />
                 <span className="font-semibold text-gray-900">City College of Calamba</span>
                 <span className="italic text-gray-700 ml-auto">4-month Internship</span>
@@ -56,9 +56,9 @@ const Dashboard = () => {
             <li>
               <div className="flex items-center space-x-3">
                 <img
-                  src="/blink-create-studio-logo.svg"
+                  src="/blink-create-studio-logo.png"
                   alt="Blink Creative Studio Logo"
-                  className="w-10 h-10 object-contain"
+                  className="w-24 h-10 object-contain"
                 />
                 <span className="font-semibold text-gray-900">Blink Creative Studio</span>
                 <span className="italic text-gray-700 ml-auto">1-month Freelance Contract</span>
