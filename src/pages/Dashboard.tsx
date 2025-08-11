@@ -25,7 +25,7 @@ const Dashboard = () => {
             <li>
               <div className="flex items-center space-x-3">
                 <img
-                  src="/public/fwa_logo.png"
+                  src="/fwa_logo.png"
                   alt="Filweb Asia Logo"
                   className="w-10 h-10 object-contain"
                 />
@@ -41,7 +41,7 @@ const Dashboard = () => {
             <li>
               <div className="flex items-center space-x-3">
                 <img
-                  src="/public/city-college-calamba-logo.png"
+                  src="/city-college-calamba-logo.png"
                   alt="City College of Calamba Logo"
                   className="w-10 h-10 object-contain"
                 />
@@ -56,7 +56,7 @@ const Dashboard = () => {
             <li>
               <div className="flex items-center space-x-3">
                 <img
-                  src="/public/blink-create-studio-logo.svg"
+                  src="/blink-create-studio-logo.svg"
                   alt="Blink Creative Studio Logo"
                   className="w-10 h-10 object-contain"
                 />
