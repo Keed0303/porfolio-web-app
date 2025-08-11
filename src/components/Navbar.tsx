@@ -16,11 +16,6 @@ export default function Navbar() {
         {/* Nav Links */}
         <ul className="flex gap-8 text-gray-700 font-medium text-sm">
           <li>
-            <a href="#dashboard" className="hover:text-blue-500 transition">
-              Dashboard
-            </a>
-          </li>
-          <li>
             <a href="#projects" className="hover:text-blue-500 transition">
               Projects
             </a>
