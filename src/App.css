@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+/* Set default background and text colors for the whole app */
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Optional: set default color for secondary text */
+p, span, small {
+  @apply text-gray-600;
+}
+
+/* Links with accent color */
+a {
+  @apply text-blue-500 hover:text-blue-700;
+}
