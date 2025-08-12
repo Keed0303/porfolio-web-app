@@ -6,17 +6,26 @@ import GetInTouch from "./ContactUs";
 
 export default function HeaderSection() {
   return (
-    <section className="mt-12 px-4 py-12 text-center max-w-6xl mx-auto">
+    <section className="mt-20 px-4 py-20 text-center max-w-6xl mx-auto">
+      {/* Profile Image */}
+      {/* <div className="flex justify-center mb-6">
+        <img
+          src="/profile.jpg"
+          alt="Manuel Kyd Thomas Nagpala"
+          className="w-36 h-36 rounded-full border-4 border-blue-500 shadow-lg object-cover"
+        />
+      </div> */}
+
       {/* Title */}
-      <h1 className="text-3xl sm:text-4xl font-bold mb-4">
+      <h1 className="text-4xl sm:text-5xl font-bold mb-4">
         Hi, I’m <span className="text-blue-500">Manuel Kyd Thomas Nagpala</span>
       </h1>
-      <p className="text-base sm:text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-        Web, Mobile, & UI Developer — crafting websites, mobile apps, and intuitive interfaces with clean code.
+      <p className="text-lg sm:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+        Web, Mobile, & UI Developer — crafting websites, mobile apps, and intuitive interfaces with clean, scalable code.
       </p>
 
       {/* Skills Label */}
-      <h2 className="text-xl sm:text-2xl font-semibold mb-6 text-gray-800">Skills</h2>
+      <h2 className="text-2xl font-semibold mb-6 text-gray-800">Skills</h2>
 
       {/* Skill Capsules */}
       <div className="flex flex-wrap gap-3 justify-center mb-10">
@@ -53,9 +62,15 @@ export default function HeaderSection() {
       </div>
 
       {/* Buttons */}
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <div className="p-4 flex">
-          <a className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" href="/Manuel-Kyd-Thoma-Nagpala-Resume.pdf" download="Manuel-Kyd-Thoma-Nagpala-Resume.pdf">Download CV</a>
+      <div className="flex flex-col sm:flex-row gap-2 justify-center">
+        <div className="p-4">
+          <a
+            className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+            href="/Manuel-Kyd-Thoma-Nagpala-Resume.pdf"
+            download="Manuel-Kyd-Thoma-Nagpala-Resume.pdf"
+          >
+            Download CV
+          </a>
         </div>
         <GetInTouch />
       </div>
